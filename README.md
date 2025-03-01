@@ -13,6 +13,6 @@ This script **intercepts LinkedIn’s GraphQL response** to extract the **exact 
 - *"02-24-2025 11:43:36 AM"*
 
 ### **⚠️ Limitations**
-🚫 **Only works for active job postings** – LinkedIn’s API **does not appear** to send timestamps for jobs that are no longer accepting applications. 
-🚫 **Only works when viewing the full job listing page** – The **"My Jobs"** list API only provides a vague "X days ago" message, without a full timestamp. 
+🚫 **Only works for active job postings** – LinkedIn’s API **does not appear** to send timestamps for jobs that are no longer accepting applications.\
+🚫 **Only works when viewing the full job listing page** – The **"My Jobs"** list API only provides a vague "X days ago" message, without a full timestamp.\
 🚫 **Heavily dependent on LinkedIn's API** – Any changes to the API structure or response format may break this script.
